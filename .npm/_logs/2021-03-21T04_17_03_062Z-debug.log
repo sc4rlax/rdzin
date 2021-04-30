@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose config Skipping project config: /data/data/com.termux/files/home/.npmrc. (matches userconfig)
+5 verbose stack Error: ENOENT: no such file or directory, open '/data/data/com.termux/files/home/package.json'
+6 verbose cwd /data/data/com.termux/files/home
+7 verbose Linux 3.18.14-15008757-QB36298109
+8 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "start"
+9 verbose node v14.15.4
+10 verbose npm  v6.14.10
+11 error code ENOENT
+12 error syscall open
+13 error path /data/data/com.termux/files/home/package.json
+14 error errno -2
+15 error enoent ENOENT: no such file or directory, open '/data/data/com.termux/files/home/package.json'
+16 error enoent This is related to npm not being able to find a file.
+17 verbose exit [ -2, true ]

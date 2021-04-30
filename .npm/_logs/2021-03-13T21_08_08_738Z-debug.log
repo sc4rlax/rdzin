@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose stack Error: missing script: start
+4 verbose stack     at run (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/run-script.js:155:19)
+4 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/lib/run-script.js:63:5
+4 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:116:5
+4 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:436:5
+4 verbose stack     at checkBinReferences_ (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:391:45)
+4 verbose stack     at final (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:434:3)
+4 verbose stack     at then (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:161:5)
+4 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:382:12
+4 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:123:16
+4 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+5 verbose cwd /data/data/com.termux/files/home/BOT-A.C.B
+6 verbose Linux 3.18.14-15008757-QB36298109
+7 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "start"
+8 verbose node v14.15.4
+9 verbose npm  v6.14.10
+10 error missing script: start
+11 verbose exit [ 1, true ]

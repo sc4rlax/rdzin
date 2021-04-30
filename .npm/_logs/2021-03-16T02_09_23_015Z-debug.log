@@ -1,0 +1,1325 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose npm-session 45510d3ec118018a
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall XBOT@1.0.0
+7 info lifecycle XBOT@1.0.0~preinstall: XBOT@1.0.0
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 7000ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 55ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 2479ms
+16 silly install loadAllDepsIntoIdealTree
+17 http fetch GET 304 https://registry.npmjs.org/tiktok-scraper 1268ms (from cache)
+18 silly pacote range manifest for tiktok-scraper@^1.4.7 fetched in 1432ms
+19 http fetch GET 304 https://registry.npmjs.org/async 338ms (from cache)
+20 silly pacote range manifest for async@^3.1.0 fetched in 391ms
+21 http fetch GET 304 https://registry.npmjs.org/json2csv 509ms (from cache)
+22 silly pacote version manifest for json2csv@4.5.1 fetched in 554ms
+23 http fetch GET 304 https://registry.npmjs.org/commander 473ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/jsonparse 570ms (from cache)
+25 silly pacote range manifest for commander@^2.15.1 fetched in 619ms
+26 silly pacote range manifest for jsonparse@^1.3.1 fetched in 619ms
+27 http fetch GET 304 https://registry.npmjs.org/lodash.get 655ms (from cache)
+28 silly pacote range manifest for lodash.get@^4.4.2 fetched in 670ms
+29 silly pacote range manifest for tiktok-scraper@^1.4.7 fetched in 41ms
+30 silly resolveWithNewModule tiktok-scraper@1.4.17 checking installable status
+31 silly pacote range manifest for async@^3.1.0 fetched in 56ms
+32 silly resolveWithNewModule async@3.2.0 checking installable status
+33 silly pacote version manifest for json2csv@4.5.1 fetched in 57ms
+34 silly resolveWithNewModule json2csv@4.5.1 checking installable status
+35 silly pacote range manifest for commander@^2.15.1 fetched in 80ms
+36 silly resolveWithNewModule commander@2.20.3 checking installable status
+37 silly pacote range manifest for jsonparse@^1.3.1 fetched in 51ms
+38 silly resolveWithNewModule jsonparse@1.3.1 checking installable status
+39 silly pacote range manifest for lodash.get@^4.4.2 fetched in 58ms
+40 silly resolveWithNewModule lodash.get@4.4.2 checking installable status
+41 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 8099ms
+42 timing stage:loadIdealTree Completed in 12381ms
+43 silly currentTree XBOT@1.0.0
+43 silly currentTree ├── @adiwajshing/baileys@3.4.1
+43 silly currentTree ├── @adiwajshing/keyed-db@0.2.4
+43 silly currentTree ├── @babel/runtime@7.13.10
+43 silly currentTree ├── @hapi/bourne@2.0.0
+43 silly currentTree ├── @jimp/bmp@0.16.1
+43 silly currentTree ├── @jimp/core@0.16.1
+43 silly currentTree ├── @jimp/custom@0.16.1
+43 silly currentTree ├── @jimp/gif@0.16.1
+43 silly currentTree ├── @jimp/jpeg@0.16.1
+43 silly currentTree ├── @jimp/plugin-blit@0.16.1
+43 silly currentTree ├── @jimp/plugin-blur@0.16.1
+43 silly currentTree ├── @jimp/plugin-circle@0.16.1
+43 silly currentTree ├── @jimp/plugin-color@0.16.1
+43 silly currentTree ├── @jimp/plugin-contain@0.16.1
+43 silly currentTree ├── @jimp/plugin-cover@0.16.1
+43 silly currentTree ├── @jimp/plugin-crop@0.16.1
+43 silly currentTree ├── @jimp/plugin-displace@0.16.1
+43 silly currentTree ├── @jimp/plugin-dither@0.16.1
+43 silly currentTree ├── @jimp/plugin-fisheye@0.16.1
+43 silly currentTree ├── @jimp/plugin-flip@0.16.1
+43 silly currentTree ├── @jimp/plugin-gaussian@0.16.1
+43 silly currentTree ├── @jimp/plugin-invert@0.16.1
+43 silly currentTree ├── @jimp/plugin-mask@0.16.1
+43 silly currentTree ├── @jimp/plugin-normalize@0.16.1
+43 silly currentTree ├── @jimp/plugin-print@0.16.1
+43 silly currentTree ├── @jimp/plugin-resize@0.16.1
+43 silly currentTree ├── @jimp/plugin-rotate@0.16.1
+43 silly currentTree ├── @jimp/plugin-scale@0.16.1
+43 silly currentTree ├── @jimp/plugin-shadow@0.16.1
+43 silly currentTree ├── @jimp/plugin-threshold@0.16.1
+43 silly currentTree ├── @jimp/plugins@0.16.1
+43 silly currentTree ├── @jimp/png@0.16.1
+43 silly currentTree ├── @jimp/tiff@0.16.1
+43 silly currentTree ├── @jimp/types@0.16.1
+43 silly currentTree ├── @jimp/utils@0.16.1
+43 silly currentTree ├── @protobufjs/aspromise@1.1.2
+43 silly currentTree ├── @protobufjs/base64@1.1.2
+43 silly currentTree ├── @protobufjs/codegen@2.0.4
+43 silly currentTree ├── @protobufjs/eventemitter@1.1.0
+43 silly currentTree ├── @protobufjs/fetch@1.1.0
+43 silly currentTree ├── @protobufjs/float@1.0.2
+43 silly currentTree ├── @protobufjs/inquire@1.1.0
+43 silly currentTree ├── @protobufjs/path@1.1.2
+43 silly currentTree ├── @protobufjs/pool@1.1.0
+43 silly currentTree ├── @protobufjs/utf8@1.1.0
+43 silly currentTree ├── @sindresorhus/is@4.0.0
+43 silly currentTree ├── @szmarczak/http-timer@4.0.5
+43 silly currentTree ├── @tokenizer/token@0.1.1
+43 silly currentTree ├── @types/cacheable-request@6.0.1
+43 silly currentTree ├── @types/debug@4.1.5
+43 silly currentTree ├── @types/http-cache-semantics@4.0.0
+43 silly currentTree ├── @types/keyv@3.1.1
+43 silly currentTree ├── @types/long@4.0.1
+43 silly currentTree ├── @types/node@14.14.35
+43 silly currentTree ├── @types/readable-stream@2.3.9
+43 silly currentTree ├── @types/responselike@1.0.0
+43 silly currentTree ├── agent-base@6.0.2
+43 silly currentTree ├── ajv@6.12.6
+43 silly currentTree ├── ansi-regex@4.1.0
+43 silly currentTree ├── ansi-styles@3.2.1
+43 silly currentTree ├── any-base@1.1.0
+43 silly currentTree ├─┬ archiver-utils@2.1.0
+43 silly currentTree │ ├── readable-stream@2.3.7
+43 silly currentTree │ ├── safe-buffer@5.1.2
+43 silly currentTree │ └── string_decoder@1.1.1
+43 silly currentTree ├── archiver@3.1.1
+43 silly currentTree ├─┬ args@5.0.1
+43 silly currentTree │ └── chalk@2.4.2
+43 silly currentTree ├── asn1@0.2.4
+43 silly currentTree ├── assert-plus@1.0.0
+43 silly currentTree ├── async@2.6.3
+43 silly currentTree ├── asynckit@0.4.0
+43 silly currentTree ├── atomic-sleep@1.0.0
+43 silly currentTree ├── aws-sign2@0.7.0
+43 silly currentTree ├── aws4@1.11.0
+43 silly currentTree ├── axios@0.21.1
+43 silly currentTree ├── balanced-match@1.0.0
+43 silly currentTree ├── base64-js@1.5.1
+43 silly currentTree ├── bcrypt-pbkdf@1.0.2
+43 silly currentTree ├── bl@4.1.0
+43 silly currentTree ├── bluebird@3.7.2
+43 silly currentTree ├── bmp-js@0.1.0
+43 silly currentTree ├── brace-expansion@1.1.11
+43 silly currentTree ├── buffer-crc32@0.2.13
+43 silly currentTree ├── buffer-equal@0.0.1
+43 silly currentTree ├── buffer@5.7.1
+43 silly currentTree ├── cacheable-lookup@5.0.4
+43 silly currentTree ├── cacheable-request@7.0.1
+43 silly currentTree ├── camelcase@5.0.0
+43 silly currentTree ├── caseless@0.12.0
+43 silly currentTree ├── cfonts@2.9.1
+43 silly currentTree ├─┬ chalk@4.1.0
+43 silly currentTree │ ├── ansi-styles@4.3.0
+43 silly currentTree │ ├── color-convert@2.0.1
+43 silly currentTree │ ├── color-name@1.1.4
+43 silly currentTree │ ├── has-flag@4.0.0
+43 silly currentTree │ └── supports-color@7.2.0
+43 silly currentTree ├── cli-cursor@3.1.0
+43 silly currentTree ├── cli-spinners@2.5.0
+43 silly currentTree ├── cliui@5.0.0
+43 silly currentTree ├── clone-response@1.0.2
+43 silly currentTree ├── clone@1.0.4
+43 silly currentTree ├── color-convert@1.9.3
+43 silly currentTree ├── color-name@1.1.3
+43 silly currentTree ├── combined-stream@1.0.8
+43 silly currentTree ├─┬ compress-commons@2.1.1
+43 silly currentTree │ ├── readable-stream@2.3.7
+43 silly currentTree │ ├── safe-buffer@5.1.2
+43 silly currentTree │ └── string_decoder@1.1.1
+43 silly currentTree ├── concat-map@0.0.1
+43 silly currentTree ├── content-type@1.0.4
+43 silly currentTree ├── core-util-is@1.0.2
+43 silly currentTree ├── crc@3.8.0
+43 silly currentTree ├── crc32-stream@3.0.1
+43 silly currentTree ├── curve25519-js@0.0.4
+43 silly currentTree ├── dashdash@1.14.1
+43 silly currentTree ├── dateformat@4.5.1
+43 silly currentTree ├── debug@4.3.1
+43 silly currentTree ├── decamelize@1.2.0
+43 silly currentTree ├─┬ decompress-response@6.0.0
+43 silly currentTree │ └── mimic-response@3.1.0
+43 silly currentTree ├── defaults@1.0.3
+43 silly currentTree ├── defer-to-connect@2.0.1
+43 silly currentTree ├── define-property@1.0.0
+43 silly currentTree ├── delayed-stream@1.0.0
+43 silly currentTree ├── dom-walk@0.1.2
+43 silly currentTree ├── dotenv@8.2.0
+43 silly currentTree ├── ecc-jsbn@0.1.2
+43 silly currentTree ├── emoji-regex@7.0.3
+43 silly currentTree ├── end-of-stream@1.4.4
+43 silly currentTree ├── escape-string-regexp@1.0.5
+43 silly currentTree ├── exif-parser@0.1.12
+43 silly currentTree ├── extend@3.0.2
+43 silly currentTree ├── extsprintf@1.3.0
+43 silly currentTree ├── fake-useragent@1.0.1
+43 silly currentTree ├── fast-deep-equal@3.1.3
+43 silly currentTree ├── fast-json-stable-stringify@2.1.0
+43 silly currentTree ├── fast-redact@3.0.0
+43 silly currentTree ├── fast-safe-stringify@2.0.7
+43 silly currentTree ├── file-type@9.0.0
+43 silly currentTree ├── find-up@3.0.0
+43 silly currentTree ├── flatstr@1.0.12
+43 silly currentTree ├── fluent-ffmpeg@2.1.2
+43 silly currentTree ├── follow-redirects@1.13.3
+43 silly currentTree ├── forever-agent@0.6.1
+43 silly currentTree ├── form-data@2.3.3
+43 silly currentTree ├── fs-constants@1.0.0
+43 silly currentTree ├── fs.realpath@1.0.0
+43 silly currentTree ├── futoin-hkdf@1.3.3
+43 silly currentTree ├── get-caller-file@2.0.5
+43 silly currentTree ├── get-stream@5.2.0
+43 silly currentTree ├── getpass@0.1.7
+43 silly currentTree ├── gifwrap@0.9.2
+43 silly currentTree ├── glob@7.1.6
+43 silly currentTree ├── global@4.4.0
+43 silly currentTree ├── got@11.8.2
+43 silly currentTree ├── graceful-fs@4.2.6
+43 silly currentTree ├── har-schema@2.0.0
+43 silly currentTree ├── har-validator@5.1.5
+43 silly currentTree ├── has-flag@3.0.0
+43 silly currentTree ├── http-cache-semantics@4.1.0
+43 silly currentTree ├── http-signature@1.2.0
+43 silly currentTree ├── http2-wrapper@1.0.3
+43 silly currentTree ├── https-proxy-agent@5.0.0
+43 silly currentTree ├── iconv-lite@0.4.24
+43 silly currentTree ├── ieee754@1.2.1
+43 silly currentTree ├── image-q@1.1.1
+43 silly currentTree ├── image-to-base64@2.1.1
+43 silly currentTree ├── inflight@1.0.6
+43 silly currentTree ├── inherits@2.0.4
+43 silly currentTree ├── ip@1.1.5
+43 silly currentTree ├── is-accessor-descriptor@1.0.0
+43 silly currentTree ├── is-buffer@1.1.6
+43 silly currentTree ├── is-data-descriptor@1.0.0
+43 silly currentTree ├── is-descriptor@1.0.2
+43 silly currentTree ├── is-fullwidth-code-point@2.0.0
+43 silly currentTree ├── is-function@1.0.2
+43 silly currentTree ├── is-interactive@1.0.0
+43 silly currentTree ├─┬ is-number@3.0.0
+43 silly currentTree │ └── kind-of@3.2.2
+43 silly currentTree ├── is-typedarray@1.0.0
+43 silly currentTree ├── isarray@1.0.0
+43 silly currentTree ├── isexe@2.0.0
+43 silly currentTree ├── isstream@0.1.2
+43 silly currentTree ├── jimp@0.16.1
+43 silly currentTree ├── jmespath@0.15.0
+43 silly currentTree ├── joycon@2.2.5
+43 silly currentTree ├── jpeg-js@0.4.2
+43 silly currentTree ├── jsbn@0.1.1
+43 silly currentTree ├── json-buffer@3.0.1
+43 silly currentTree ├── json-schema-traverse@0.4.1
+43 silly currentTree ├── json-schema@0.2.3
+43 silly currentTree ├── json-stringify-safe@5.0.1
+43 silly currentTree ├── jsprim@1.4.1
+43 silly currentTree ├── keyv@4.0.3
+43 silly currentTree ├── kind-of@6.0.3
+43 silly currentTree ├─┬ lazystream@1.0.0
+43 silly currentTree │ ├── readable-stream@2.3.7
+43 silly currentTree │ ├── safe-buffer@5.1.2
+43 silly currentTree │ └── string_decoder@1.1.1
+43 silly currentTree ├── leven@2.1.0
+43 silly currentTree ├── load-bmfont@1.4.1
+43 silly currentTree ├── locate-path@3.0.0
+43 silly currentTree ├── lodash.defaults@4.2.0
+43 silly currentTree ├── lodash.difference@4.5.0
+43 silly currentTree ├── lodash.flatten@4.4.0
+43 silly currentTree ├── lodash.isplainobject@4.0.6
+43 silly currentTree ├── lodash.union@4.6.0
+43 silly currentTree ├── lodash@4.17.21
+43 silly currentTree ├─┬ log-symbols@3.0.0
+43 silly currentTree │ └── chalk@2.4.2
+43 silly currentTree ├── long@4.0.0
+43 silly currentTree ├── lowercase-keys@2.0.0
+43 silly currentTree ├── media-typer@1.1.0
+43 silly currentTree ├── mime-db@1.46.0
+43 silly currentTree ├── mime-types@2.1.29
+43 silly currentTree ├── mime@1.6.0
+43 silly currentTree ├── mimic-fn@2.1.0
+43 silly currentTree ├── mimic-response@1.0.1
+43 silly currentTree ├── min-document@2.19.0
+43 silly currentTree ├── minimatch@3.0.4
+43 silly currentTree ├── minimist@1.2.5
+43 silly currentTree ├── mkdirp@0.5.5
+43 silly currentTree ├── moment-timezone@0.5.33
+43 silly currentTree ├── moment@2.29.1
+43 silly currentTree ├── mri@1.1.4
+43 silly currentTree ├── ms@2.1.2
+43 silly currentTree ├─┬ multistream@2.1.1
+43 silly currentTree │ ├── readable-stream@2.3.7
+43 silly currentTree │ ├── safe-buffer@5.1.2
+43 silly currentTree │ └── string_decoder@1.1.1
+43 silly currentTree ├─┬ music-metadata@7.8.1
+43 silly currentTree │ └── file-type@16.3.0
+43 silly currentTree ├── mute-stream@0.0.8
+43 silly currentTree ├─┬ needle@2.6.0
+43 silly currentTree │ └── debug@3.2.7
+43 silly currentTree ├── node-fetch@2.6.1
+43 silly currentTree ├── node-gtts@2.0.2
+43 silly currentTree ├── node-tesseract-ocr@2.0.0
+43 silly currentTree ├── normalize-path@3.0.0
+43 silly currentTree ├── normalize-url@4.5.0
+43 silly currentTree ├── oauth-sign@0.9.0
+43 silly currentTree ├── omggif@1.0.10
+43 silly currentTree ├── once@1.4.0
+43 silly currentTree ├── onetime@5.1.2
+43 silly currentTree ├─┬ ora@4.1.1
+43 silly currentTree │ ├── ansi-regex@5.0.0
+43 silly currentTree │ ├── ansi-styles@4.3.0
+43 silly currentTree │ ├── chalk@3.0.0
+43 silly currentTree │ ├── color-convert@2.0.1
+43 silly currentTree │ ├── color-name@1.1.4
+43 silly currentTree │ ├── has-flag@4.0.0
+43 silly currentTree │ ├── strip-ansi@6.0.0
+43 silly currentTree │ └── supports-color@7.2.0
+43 silly currentTree ├── p-cancelable@2.1.0
+43 silly currentTree ├── p-limit@2.3.0
+43 silly currentTree ├── p-locate@3.0.0
+43 silly currentTree ├── p-try@2.2.0
+43 silly currentTree ├── pako@1.0.11
+43 silly currentTree ├── parse-bmfont-ascii@1.0.6
+43 silly currentTree ├── parse-bmfont-binary@1.0.6
+43 silly currentTree ├── parse-bmfont-xml@1.1.4
+43 silly currentTree ├── parse-headers@2.0.3
+43 silly currentTree ├── path-exists@3.0.0
+43 silly currentTree ├── path-is-absolute@1.0.1
+43 silly currentTree ├── peek-readable@3.1.3
+43 silly currentTree ├── performance-now@2.1.0
+43 silly currentTree ├── phin@2.9.3
+43 silly currentTree ├── pino-pretty@4.7.1
+43 silly currentTree ├── pino-std-serializers@3.2.0
+43 silly currentTree ├── pino@6.11.2
+43 silly currentTree ├── pixelmatch@4.0.2
+43 silly currentTree ├── pngjs@3.4.0
+43 silly currentTree ├── process-nextick-args@2.0.1
+43 silly currentTree ├── process@0.11.10
+43 silly currentTree ├── progress@2.0.3
+43 silly currentTree ├─┬ protobufjs@6.10.2
+43 silly currentTree │ └── @types/node@13.13.47
+43 silly currentTree ├── psl@1.8.0
+43 silly currentTree ├── pump@3.0.0
+43 silly currentTree ├── punycode@2.1.1
+43 silly currentTree ├── qrcode-terminal@0.12.0
+43 silly currentTree ├── qs@6.5.2
+43 silly currentTree ├── quick-format-unescaped@4.0.1
+43 silly currentTree ├── quick-lru@5.1.1
+43 silly currentTree ├── readable-stream@3.6.0
+43 silly currentTree ├── readable-web-to-node-stream@3.0.1
+43 silly currentTree ├── regenerator-runtime@0.13.7
+43 silly currentTree ├── remove.bg@1.3.0
+43 silly currentTree ├── request-promise-core@1.1.4
+43 silly currentTree ├── request-promise@4.2.6
+43 silly currentTree ├── request@2.88.2
+43 silly currentTree ├── require-directory@2.1.1
+43 silly currentTree ├── require-main-filename@2.0.0
+43 silly currentTree ├── resolve-alpn@1.0.0
+43 silly currentTree ├── responselike@2.0.0
+43 silly currentTree ├── restore-cursor@3.1.0
+43 silly currentTree ├── safe-buffer@5.2.1
+43 silly currentTree ├── safer-buffer@2.1.2
+43 silly currentTree ├── sax@1.2.4
+43 silly currentTree ├── set-blocking@2.0.0
+43 silly currentTree ├── signal-exit@3.0.3
+43 silly currentTree ├── smart-buffer@4.1.0
+43 silly currentTree ├── socks-proxy-agent@5.0.0
+43 silly currentTree ├── socks@2.5.1
+43 silly currentTree ├── sonic-boom@1.4.0
+43 silly currentTree ├─┬ spinnies@0.5.1
+43 silly currentTree │ └── chalk@2.4.2
+43 silly currentTree ├── split2@3.2.2
+43 silly currentTree ├── sshpk@1.16.1
+43 silly currentTree ├── stealthy-require@1.1.1
+43 silly currentTree ├── string_decoder@1.3.0
+43 silly currentTree ├── string-width@3.1.0
+43 silly currentTree ├── strip-ansi@5.2.0
+43 silly currentTree ├── strip-json-comments@3.1.1
+43 silly currentTree ├── strtok3@6.0.8
+43 silly currentTree ├── supports-color@5.5.0
+43 silly currentTree ├── tar-stream@2.2.0
+43 silly currentTree ├── timm@1.7.1
+43 silly currentTree ├── tinycolor2@1.4.2
+43 silly currentTree ├── token-types@2.1.1
+43 silly currentTree ├── tough-cookie@2.5.0
+43 silly currentTree ├── tunnel-agent@0.6.0
+43 silly currentTree ├── tweetnacl@0.14.5
+43 silly currentTree ├── typedarray-to-buffer@3.1.5
+43 silly currentTree ├─┬ unirest@0.6.0
+43 silly currentTree │ ├── async@0.9.2
+43 silly currentTree │ ├── combined-stream@0.0.7
+43 silly currentTree │ ├── delayed-stream@0.0.5
+43 silly currentTree │ ├── form-data@0.2.0
+43 silly currentTree │ ├── mime-db@1.12.0
+43 silly currentTree │ ├── mime-types@2.0.14
+43 silly currentTree │ └── mime@2.5.2
+43 silly currentTree ├── uri-js@4.4.1
+43 silly currentTree ├── utif@2.0.1
+43 silly currentTree ├── util-deprecate@1.0.2
+43 silly currentTree ├── uuid@3.4.0
+43 silly currentTree ├── verror@1.10.0
+43 silly currentTree ├── wcwidth@1.0.1
+43 silly currentTree ├── which-module@2.0.0
+43 silly currentTree ├── which@1.3.1
+43 silly currentTree ├── window-size@1.1.1
+43 silly currentTree ├── wrap-ansi@5.1.0
+43 silly currentTree ├── wrappy@1.0.2
+43 silly currentTree ├── ws@7.4.4
+43 silly currentTree ├── xhr@2.6.0
+43 silly currentTree ├── xml-parse-from-string@1.0.1
+43 silly currentTree ├── xml2js@0.4.23
+43 silly currentTree ├── xmlbuilder@11.0.1
+43 silly currentTree ├── xtend@4.0.2
+43 silly currentTree ├── y18n@4.0.1
+43 silly currentTree ├── yargs-parser@15.0.1
+43 silly currentTree ├── yargs@14.2.3
+43 silly currentTree └── zip-stream@2.1.3
+44 silly idealTree XBOT@1.0.0
+44 silly idealTree ├── @adiwajshing/baileys@3.4.1
+44 silly idealTree ├── @adiwajshing/keyed-db@0.2.4
+44 silly idealTree ├── @babel/runtime@7.13.10
+44 silly idealTree ├── @hapi/bourne@2.0.0
+44 silly idealTree ├── @jimp/bmp@0.16.1
+44 silly idealTree ├── @jimp/core@0.16.1
+44 silly idealTree ├── @jimp/custom@0.16.1
+44 silly idealTree ├── @jimp/gif@0.16.1
+44 silly idealTree ├── @jimp/jpeg@0.16.1
+44 silly idealTree ├── @jimp/plugin-blit@0.16.1
+44 silly idealTree ├── @jimp/plugin-blur@0.16.1
+44 silly idealTree ├── @jimp/plugin-circle@0.16.1
+44 silly idealTree ├── @jimp/plugin-color@0.16.1
+44 silly idealTree ├── @jimp/plugin-contain@0.16.1
+44 silly idealTree ├── @jimp/plugin-cover@0.16.1
+44 silly idealTree ├── @jimp/plugin-crop@0.16.1
+44 silly idealTree ├── @jimp/plugin-displace@0.16.1
+44 silly idealTree ├── @jimp/plugin-dither@0.16.1
+44 silly idealTree ├── @jimp/plugin-fisheye@0.16.1
+44 silly idealTree ├── @jimp/plugin-flip@0.16.1
+44 silly idealTree ├── @jimp/plugin-gaussian@0.16.1
+44 silly idealTree ├── @jimp/plugin-invert@0.16.1
+44 silly idealTree ├── @jimp/plugin-mask@0.16.1
+44 silly idealTree ├── @jimp/plugin-normalize@0.16.1
+44 silly idealTree ├── @jimp/plugin-print@0.16.1
+44 silly idealTree ├── @jimp/plugin-resize@0.16.1
+44 silly idealTree ├── @jimp/plugin-rotate@0.16.1
+44 silly idealTree ├── @jimp/plugin-scale@0.16.1
+44 silly idealTree ├── @jimp/plugin-shadow@0.16.1
+44 silly idealTree ├── @jimp/plugin-threshold@0.16.1
+44 silly idealTree ├── @jimp/plugins@0.16.1
+44 silly idealTree ├── @jimp/png@0.16.1
+44 silly idealTree ├── @jimp/tiff@0.16.1
+44 silly idealTree ├── @jimp/types@0.16.1
+44 silly idealTree ├── @jimp/utils@0.16.1
+44 silly idealTree ├── @protobufjs/aspromise@1.1.2
+44 silly idealTree ├── @protobufjs/base64@1.1.2
+44 silly idealTree ├── @protobufjs/codegen@2.0.4
+44 silly idealTree ├── @protobufjs/eventemitter@1.1.0
+44 silly idealTree ├── @protobufjs/fetch@1.1.0
+44 silly idealTree ├── @protobufjs/float@1.0.2
+44 silly idealTree ├── @protobufjs/inquire@1.1.0
+44 silly idealTree ├── @protobufjs/path@1.1.2
+44 silly idealTree ├── @protobufjs/pool@1.1.0
+44 silly idealTree ├── @protobufjs/utf8@1.1.0
+44 silly idealTree ├── @sindresorhus/is@4.0.0
+44 silly idealTree ├── @szmarczak/http-timer@4.0.5
+44 silly idealTree ├── @tokenizer/token@0.1.1
+44 silly idealTree ├── @types/cacheable-request@6.0.1
+44 silly idealTree ├── @types/debug@4.1.5
+44 silly idealTree ├── @types/http-cache-semantics@4.0.0
+44 silly idealTree ├── @types/keyv@3.1.1
+44 silly idealTree ├── @types/long@4.0.1
+44 silly idealTree ├── @types/node@14.14.35
+44 silly idealTree ├── @types/readable-stream@2.3.9
+44 silly idealTree ├── @types/responselike@1.0.0
+44 silly idealTree ├── agent-base@6.0.2
+44 silly idealTree ├── ajv@6.12.6
+44 silly idealTree ├── ansi-regex@4.1.0
+44 silly idealTree ├── ansi-styles@3.2.1
+44 silly idealTree ├── any-base@1.1.0
+44 silly idealTree ├─┬ archiver-utils@2.1.0
+44 silly idealTree │ ├── readable-stream@2.3.7
+44 silly idealTree │ ├── safe-buffer@5.1.2
+44 silly idealTree │ └── string_decoder@1.1.1
+44 silly idealTree ├── archiver@3.1.1
+44 silly idealTree ├─┬ args@5.0.1
+44 silly idealTree │ └── chalk@2.4.2
+44 silly idealTree ├── asn1@0.2.4
+44 silly idealTree ├── assert-plus@1.0.0
+44 silly idealTree ├── async@2.6.3
+44 silly idealTree ├── asynckit@0.4.0
+44 silly idealTree ├── atomic-sleep@1.0.0
+44 silly idealTree ├── aws-sign2@0.7.0
+44 silly idealTree ├── aws4@1.11.0
+44 silly idealTree ├── axios@0.21.1
+44 silly idealTree ├── balanced-match@1.0.0
+44 silly idealTree ├── base64-js@1.5.1
+44 silly idealTree ├── bcrypt-pbkdf@1.0.2
+44 silly idealTree ├── bl@4.1.0
+44 silly idealTree ├── bluebird@3.7.2
+44 silly idealTree ├── bmp-js@0.1.0
+44 silly idealTree ├── brace-expansion@1.1.11
+44 silly idealTree ├── buffer-crc32@0.2.13
+44 silly idealTree ├── buffer-equal@0.0.1
+44 silly idealTree ├── buffer@5.7.1
+44 silly idealTree ├── cacheable-lookup@5.0.4
+44 silly idealTree ├── cacheable-request@7.0.1
+44 silly idealTree ├── camelcase@5.0.0
+44 silly idealTree ├── caseless@0.12.0
+44 silly idealTree ├── cfonts@2.9.1
+44 silly idealTree ├─┬ chalk@4.1.0
+44 silly idealTree │ ├── ansi-styles@4.3.0
+44 silly idealTree │ ├── color-convert@2.0.1
+44 silly idealTree │ ├── color-name@1.1.4
+44 silly idealTree │ ├── has-flag@4.0.0
+44 silly idealTree │ └── supports-color@7.2.0
+44 silly idealTree ├── cli-cursor@3.1.0
+44 silly idealTree ├── cli-spinners@2.5.0
+44 silly idealTree ├── cliui@5.0.0
+44 silly idealTree ├── clone-response@1.0.2
+44 silly idealTree ├── clone@1.0.4
+44 silly idealTree ├── color-convert@1.9.3
+44 silly idealTree ├── color-name@1.1.3
+44 silly idealTree ├── combined-stream@1.0.8
+44 silly idealTree ├── commander@2.20.3
+44 silly idealTree ├─┬ compress-commons@2.1.1
+44 silly idealTree │ ├── readable-stream@2.3.7
+44 silly idealTree │ ├── safe-buffer@5.1.2
+44 silly idealTree │ └── string_decoder@1.1.1
+44 silly idealTree ├── concat-map@0.0.1
+44 silly idealTree ├── content-type@1.0.4
+44 silly idealTree ├── core-util-is@1.0.2
+44 silly idealTree ├── crc@3.8.0
+44 silly idealTree ├── crc32-stream@3.0.1
+44 silly idealTree ├── curve25519-js@0.0.4
+44 silly idealTree ├── dashdash@1.14.1
+44 silly idealTree ├── dateformat@4.5.1
+44 silly idealTree ├── debug@4.3.1
+44 silly idealTree ├── decamelize@1.2.0
+44 silly idealTree ├─┬ decompress-response@6.0.0
+44 silly idealTree │ └── mimic-response@3.1.0
+44 silly idealTree ├── defaults@1.0.3
+44 silly idealTree ├── defer-to-connect@2.0.1
+44 silly idealTree ├── define-property@1.0.0
+44 silly idealTree ├── delayed-stream@1.0.0
+44 silly idealTree ├── dom-walk@0.1.2
+44 silly idealTree ├── dotenv@8.2.0
+44 silly idealTree ├── ecc-jsbn@0.1.2
+44 silly idealTree ├── emoji-regex@7.0.3
+44 silly idealTree ├── end-of-stream@1.4.4
+44 silly idealTree ├── escape-string-regexp@1.0.5
+44 silly idealTree ├── exif-parser@0.1.12
+44 silly idealTree ├── extend@3.0.2
+44 silly idealTree ├── extsprintf@1.3.0
+44 silly idealTree ├── fake-useragent@1.0.1
+44 silly idealTree ├── fast-deep-equal@3.1.3
+44 silly idealTree ├── fast-json-stable-stringify@2.1.0
+44 silly idealTree ├── fast-redact@3.0.0
+44 silly idealTree ├── fast-safe-stringify@2.0.7
+44 silly idealTree ├── file-type@9.0.0
+44 silly idealTree ├── find-up@3.0.0
+44 silly idealTree ├── flatstr@1.0.12
+44 silly idealTree ├── fluent-ffmpeg@2.1.2
+44 silly idealTree ├── follow-redirects@1.13.3
+44 silly idealTree ├── forever-agent@0.6.1
+44 silly idealTree ├── form-data@2.3.3
+44 silly idealTree ├── fs-constants@1.0.0
+44 silly idealTree ├── fs.realpath@1.0.0
+44 silly idealTree ├── futoin-hkdf@1.3.3
+44 silly idealTree ├── get-caller-file@2.0.5
+44 silly idealTree ├── get-stream@5.2.0
+44 silly idealTree ├── getpass@0.1.7
+44 silly idealTree ├── gifwrap@0.9.2
+44 silly idealTree ├── glob@7.1.6
+44 silly idealTree ├── global@4.4.0
+44 silly idealTree ├── got@11.8.2
+44 silly idealTree ├── graceful-fs@4.2.6
+44 silly idealTree ├── har-schema@2.0.0
+44 silly idealTree ├── har-validator@5.1.5
+44 silly idealTree ├── has-flag@3.0.0
+44 silly idealTree ├── http-cache-semantics@4.1.0
+44 silly idealTree ├── http-signature@1.2.0
+44 silly idealTree ├── http2-wrapper@1.0.3
+44 silly idealTree ├── https-proxy-agent@5.0.0
+44 silly idealTree ├── iconv-lite@0.4.24
+44 silly idealTree ├── ieee754@1.2.1
+44 silly idealTree ├── image-q@1.1.1
+44 silly idealTree ├── image-to-base64@2.1.1
+44 silly idealTree ├── inflight@1.0.6
+44 silly idealTree ├── inherits@2.0.4
+44 silly idealTree ├── ip@1.1.5
+44 silly idealTree ├── is-accessor-descriptor@1.0.0
+44 silly idealTree ├── is-buffer@1.1.6
+44 silly idealTree ├── is-data-descriptor@1.0.0
+44 silly idealTree ├── is-descriptor@1.0.2
+44 silly idealTree ├── is-fullwidth-code-point@2.0.0
+44 silly idealTree ├── is-function@1.0.2
+44 silly idealTree ├── is-interactive@1.0.0
+44 silly idealTree ├─┬ is-number@3.0.0
+44 silly idealTree │ └── kind-of@3.2.2
+44 silly idealTree ├── is-typedarray@1.0.0
+44 silly idealTree ├── isarray@1.0.0
+44 silly idealTree ├── isexe@2.0.0
+44 silly idealTree ├── isstream@0.1.2
+44 silly idealTree ├── jimp@0.16.1
+44 silly idealTree ├── jmespath@0.15.0
+44 silly idealTree ├── joycon@2.2.5
+44 silly idealTree ├── jpeg-js@0.4.2
+44 silly idealTree ├── jsbn@0.1.1
+44 silly idealTree ├── json-buffer@3.0.1
+44 silly idealTree ├── json-schema-traverse@0.4.1
+44 silly idealTree ├── json-schema@0.2.3
+44 silly idealTree ├── json-stringify-safe@5.0.1
+44 silly idealTree ├── json2csv@4.5.1
+44 silly idealTree ├── jsonparse@1.3.1
+44 silly idealTree ├── jsprim@1.4.1
+44 silly idealTree ├── keyv@4.0.3
+44 silly idealTree ├── kind-of@6.0.3
+44 silly idealTree ├─┬ lazystream@1.0.0
+44 silly idealTree │ ├── readable-stream@2.3.7
+44 silly idealTree │ ├── safe-buffer@5.1.2
+44 silly idealTree │ └── string_decoder@1.1.1
+44 silly idealTree ├── leven@2.1.0
+44 silly idealTree ├── load-bmfont@1.4.1
+44 silly idealTree ├── locate-path@3.0.0
+44 silly idealTree ├── lodash.defaults@4.2.0
+44 silly idealTree ├── lodash.difference@4.5.0
+44 silly idealTree ├── lodash.flatten@4.4.0
+44 silly idealTree ├── lodash.get@4.4.2
+44 silly idealTree ├── lodash.isplainobject@4.0.6
+44 silly idealTree ├── lodash.union@4.6.0
+44 silly idealTree ├── lodash@4.17.21
+44 silly idealTree ├─┬ log-symbols@3.0.0
+44 silly idealTree │ └── chalk@2.4.2
+44 silly idealTree ├── long@4.0.0
+44 silly idealTree ├── lowercase-keys@2.0.0
+44 silly idealTree ├── media-typer@1.1.0
+44 silly idealTree ├── mime-db@1.46.0
+44 silly idealTree ├── mime-types@2.1.29
+44 silly idealTree ├── mime@1.6.0
+44 silly idealTree ├── mimic-fn@2.1.0
+44 silly idealTree ├── mimic-response@1.0.1
+44 silly idealTree ├── min-document@2.19.0
+44 silly idealTree ├── minimatch@3.0.4
+44 silly idealTree ├── minimist@1.2.5
+44 silly idealTree ├── mkdirp@0.5.5
+44 silly idealTree ├── moment-timezone@0.5.33
+44 silly idealTree ├── moment@2.29.1
+44 silly idealTree ├── mri@1.1.4
+44 silly idealTree ├── ms@2.1.2
+44 silly idealTree ├─┬ multistream@2.1.1
+44 silly idealTree │ ├── readable-stream@2.3.7
+44 silly idealTree │ ├── safe-buffer@5.1.2
+44 silly idealTree │ └── string_decoder@1.1.1
+44 silly idealTree ├─┬ music-metadata@7.8.1
+44 silly idealTree │ └── file-type@16.3.0
+44 silly idealTree ├── mute-stream@0.0.8
+44 silly idealTree ├─┬ needle@2.6.0
+44 silly idealTree │ └── debug@3.2.7
+44 silly idealTree ├── node-fetch@2.6.1
+44 silly idealTree ├── node-gtts@2.0.2
+44 silly idealTree ├── node-tesseract-ocr@2.0.0
+44 silly idealTree ├── normalize-path@3.0.0
+44 silly idealTree ├── normalize-url@4.5.0
+44 silly idealTree ├── oauth-sign@0.9.0
+44 silly idealTree ├── omggif@1.0.10
+44 silly idealTree ├── once@1.4.0
+44 silly idealTree ├── onetime@5.1.2
+44 silly idealTree ├─┬ ora@4.1.1
+44 silly idealTree │ ├── ansi-regex@5.0.0
+44 silly idealTree │ ├── ansi-styles@4.3.0
+44 silly idealTree │ ├── chalk@3.0.0
+44 silly idealTree │ ├── color-convert@2.0.1
+44 silly idealTree │ ├── color-name@1.1.4
+44 silly idealTree │ ├── has-flag@4.0.0
+44 silly idealTree │ ├── strip-ansi@6.0.0
+44 silly idealTree │ └── supports-color@7.2.0
+44 silly idealTree ├── p-cancelable@2.1.0
+44 silly idealTree ├── p-limit@2.3.0
+44 silly idealTree ├── p-locate@3.0.0
+44 silly idealTree ├── p-try@2.2.0
+44 silly idealTree ├── pako@1.0.11
+44 silly idealTree ├── parse-bmfont-ascii@1.0.6
+44 silly idealTree ├── parse-bmfont-binary@1.0.6
+44 silly idealTree ├── parse-bmfont-xml@1.1.4
+44 silly idealTree ├── parse-headers@2.0.3
+44 silly idealTree ├── path-exists@3.0.0
+44 silly idealTree ├── path-is-absolute@1.0.1
+44 silly idealTree ├── peek-readable@3.1.3
+44 silly idealTree ├── performance-now@2.1.0
+44 silly idealTree ├── phin@2.9.3
+44 silly idealTree ├── pino-pretty@4.7.1
+44 silly idealTree ├── pino-std-serializers@3.2.0
+44 silly idealTree ├── pino@6.11.2
+44 silly idealTree ├── pixelmatch@4.0.2
+44 silly idealTree ├── pngjs@3.4.0
+44 silly idealTree ├── process-nextick-args@2.0.1
+44 silly idealTree ├── process@0.11.10
+44 silly idealTree ├── progress@2.0.3
+44 silly idealTree ├─┬ protobufjs@6.10.2
+44 silly idealTree │ └── @types/node@13.13.47
+44 silly idealTree ├── psl@1.8.0
+44 silly idealTree ├── pump@3.0.0
+44 silly idealTree ├── punycode@2.1.1
+44 silly idealTree ├── qrcode-terminal@0.12.0
+44 silly idealTree ├── qs@6.5.2
+44 silly idealTree ├── quick-format-unescaped@4.0.1
+44 silly idealTree ├── quick-lru@5.1.1
+44 silly idealTree ├── readable-stream@3.6.0
+44 silly idealTree ├── readable-web-to-node-stream@3.0.1
+44 silly idealTree ├── regenerator-runtime@0.13.7
+44 silly idealTree ├── remove.bg@1.3.0
+44 silly idealTree ├── request-promise-core@1.1.4
+44 silly idealTree ├── request-promise@4.2.6
+44 silly idealTree ├── request@2.88.2
+44 silly idealTree ├── require-directory@2.1.1
+44 silly idealTree ├── require-main-filename@2.0.0
+44 silly idealTree ├── resolve-alpn@1.0.0
+44 silly idealTree ├── responselike@2.0.0
+44 silly idealTree ├── restore-cursor@3.1.0
+44 silly idealTree ├── safe-buffer@5.2.1
+44 silly idealTree ├── safer-buffer@2.1.2
+44 silly idealTree ├── sax@1.2.4
+44 silly idealTree ├── set-blocking@2.0.0
+44 silly idealTree ├── signal-exit@3.0.3
+44 silly idealTree ├── smart-buffer@4.1.0
+44 silly idealTree ├── socks-proxy-agent@5.0.0
+44 silly idealTree ├── socks@2.5.1
+44 silly idealTree ├── sonic-boom@1.4.0
+44 silly idealTree ├─┬ spinnies@0.5.1
+44 silly idealTree │ └── chalk@2.4.2
+44 silly idealTree ├── split2@3.2.2
+44 silly idealTree ├── sshpk@1.16.1
+44 silly idealTree ├── stealthy-require@1.1.1
+44 silly idealTree ├── string_decoder@1.3.0
+44 silly idealTree ├── string-width@3.1.0
+44 silly idealTree ├── strip-ansi@5.2.0
+44 silly idealTree ├── strip-json-comments@3.1.1
+44 silly idealTree ├── strtok3@6.0.8
+44 silly idealTree ├── supports-color@5.5.0
+44 silly idealTree ├── tar-stream@2.2.0
+44 silly idealTree ├─┬ tiktok-scraper@1.4.17
+44 silly idealTree │ └── async@3.2.0
+44 silly idealTree ├── timm@1.7.1
+44 silly idealTree ├── tinycolor2@1.4.2
+44 silly idealTree ├── token-types@2.1.1
+44 silly idealTree ├── tough-cookie@2.5.0
+44 silly idealTree ├── tunnel-agent@0.6.0
+44 silly idealTree ├── tweetnacl@0.14.5
+44 silly idealTree ├── typedarray-to-buffer@3.1.5
+44 silly idealTree ├─┬ unirest@0.6.0
+44 silly idealTree │ ├── async@0.9.2
+44 silly idealTree │ ├── combined-stream@0.0.7
+44 silly idealTree │ ├── delayed-stream@0.0.5
+44 silly idealTree │ ├── form-data@0.2.0
+44 silly idealTree │ ├── mime-db@1.12.0
+44 silly idealTree │ ├── mime-types@2.0.14
+44 silly idealTree │ └── mime@2.5.2
+44 silly idealTree ├── uri-js@4.4.1
+44 silly idealTree ├── utif@2.0.1
+44 silly idealTree ├── util-deprecate@1.0.2
+44 silly idealTree ├── uuid@3.4.0
+44 silly idealTree ├── verror@1.10.0
+44 silly idealTree ├── wcwidth@1.0.1
+44 silly idealTree ├── which-module@2.0.0
+44 silly idealTree ├── which@1.3.1
+44 silly idealTree ├── window-size@1.1.1
+44 silly idealTree ├── wrap-ansi@5.1.0
+44 silly idealTree ├── wrappy@1.0.2
+44 silly idealTree ├── ws@7.4.4
+44 silly idealTree ├── xhr@2.6.0
+44 silly idealTree ├── xml-parse-from-string@1.0.1
+44 silly idealTree ├── xml2js@0.4.23
+44 silly idealTree ├── xmlbuilder@11.0.1
+44 silly idealTree ├── xtend@4.0.2
+44 silly idealTree ├── y18n@4.0.1
+44 silly idealTree ├── yargs-parser@15.0.1
+44 silly idealTree ├── yargs@14.2.3
+44 silly idealTree └── zip-stream@2.1.3
+45 silly install generateActionsToTake
+46 timing stage:generateActionsToTake Completed in 470ms
+47 silly diffTrees action count 6
+48 silly diffTrees add commander@2.20.3
+49 silly diffTrees add jsonparse@1.3.1
+50 silly diffTrees add lodash.get@4.4.2
+51 silly diffTrees add json2csv@4.5.1
+52 silly diffTrees add async@3.2.0
+53 silly diffTrees add tiktok-scraper@1.4.17
+54 silly decomposeActions action count 48
+55 silly decomposeActions fetch commander@2.20.3
+56 silly decomposeActions extract commander@2.20.3
+57 silly decomposeActions preinstall commander@2.20.3
+58 silly decomposeActions build commander@2.20.3
+59 silly decomposeActions install commander@2.20.3
+60 silly decomposeActions postinstall commander@2.20.3
+61 silly decomposeActions finalize commander@2.20.3
+62 silly decomposeActions refresh-package-json commander@2.20.3
+63 silly decomposeActions fetch jsonparse@1.3.1
+64 silly decomposeActions extract jsonparse@1.3.1
+65 silly decomposeActions preinstall jsonparse@1.3.1
+66 silly decomposeActions build jsonparse@1.3.1
+67 silly decomposeActions install jsonparse@1.3.1
+68 silly decomposeActions postinstall jsonparse@1.3.1
+69 silly decomposeActions finalize jsonparse@1.3.1
+70 silly decomposeActions refresh-package-json jsonparse@1.3.1
+71 silly decomposeActions fetch lodash.get@4.4.2
+72 silly decomposeActions extract lodash.get@4.4.2
+73 silly decomposeActions preinstall lodash.get@4.4.2
+74 silly decomposeActions build lodash.get@4.4.2
+75 silly decomposeActions install lodash.get@4.4.2
+76 silly decomposeActions postinstall lodash.get@4.4.2
+77 silly decomposeActions finalize lodash.get@4.4.2
+78 silly decomposeActions refresh-package-json lodash.get@4.4.2
+79 silly decomposeActions fetch json2csv@4.5.1
+80 silly decomposeActions extract json2csv@4.5.1
+81 silly decomposeActions preinstall json2csv@4.5.1
+82 silly decomposeActions build json2csv@4.5.1
+83 silly decomposeActions install json2csv@4.5.1
+84 silly decomposeActions postinstall json2csv@4.5.1
+85 silly decomposeActions finalize json2csv@4.5.1
+86 silly decomposeActions refresh-package-json json2csv@4.5.1
+87 silly decomposeActions fetch async@3.2.0
+88 silly decomposeActions extract async@3.2.0
+89 silly decomposeActions preinstall async@3.2.0
+90 silly decomposeActions build async@3.2.0
+91 silly decomposeActions install async@3.2.0
+92 silly decomposeActions postinstall async@3.2.0
+93 silly decomposeActions finalize async@3.2.0
+94 silly decomposeActions refresh-package-json async@3.2.0
+95 silly decomposeActions fetch tiktok-scraper@1.4.17
+96 silly decomposeActions extract tiktok-scraper@1.4.17
+97 silly decomposeActions preinstall tiktok-scraper@1.4.17
+98 silly decomposeActions build tiktok-scraper@1.4.17
+99 silly decomposeActions install tiktok-scraper@1.4.17
+100 silly decomposeActions postinstall tiktok-scraper@1.4.17
+101 silly decomposeActions finalize tiktok-scraper@1.4.17
+102 silly decomposeActions refresh-package-json tiktok-scraper@1.4.17
+103 silly install executeActions
+104 silly doSerial global-install 48
+105 verbose correctMkdir /data/data/com.termux/files/home/.npm/_locks correctMkdir not in flight; initializing
+106 verbose lock using /data/data/com.termux/files/home/.npm/_locks/staging-57715119ca31aab6.lock for /storage/emulated/0/meubot/node_modules/.staging
+107 silly doParallel extract 6
+108 silly extract commander@2.20.3
+109 silly extract jsonparse@1.3.1
+110 silly extract lodash.get@4.4.2
+111 silly extract json2csv@4.5.1
+112 silly extract async@3.2.0
+113 silly extract tiktok-scraper@1.4.17
+114 silly tarball trying commander@^2.15.1 by hash: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+115 silly tarball trying jsonparse@^1.3.1 by hash: sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
+116 silly tarball trying lodash.get@^4.4.2 by hash: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+117 silly tarball trying json2csv@4.5.1 by hash: sha512-o90Xa1ziGk3i7AJEO79Jac4+7SEUk58/DxS5mDPW6GF7poX0y7Y0pm1FbWrkz9VzKE4MpUW9aKBOCpJ0U1Ua8A==
+118 silly tarball trying async@^3.1.0 by hash: sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
+119 silly tarball trying tiktok-scraper@^1.4.7 by hash: sha512-8ksJWOqlspoqWtmZllGHRy/ssI4SMl2GG912BxzEoJL35RX66MjmoKbHfUsdOIHohI4bO+/F5K0dd1mEtbWz7g==
+120 silly extract lodash.get@^4.4.2 extracted to /storage/emulated/0/meubot/node_modules/.staging/lodash.get-7eb17e63 (970ms)
+121 silly extract commander@^2.15.1 extracted to /storage/emulated/0/meubot/node_modules/.staging/commander-4b46a505 (1065ms)
+122 silly extract jsonparse@^1.3.1 extracted to /storage/emulated/0/meubot/node_modules/.staging/jsonparse-f7c50a94 (1197ms)
+123 timing audit submit Completed in 1506ms
+124 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 1504ms
+125 timing audit body Completed in 21ms
+126 silly extract json2csv@4.5.1 extracted to /storage/emulated/0/meubot/node_modules/.staging/json2csv-5523108e (1463ms)
+127 silly extract tiktok-scraper@^1.4.7 extracted to /storage/emulated/0/meubot/node_modules/.staging/tiktok-scraper-de878a70 (1503ms)
+128 silly extract async@^3.1.0 extracted to /storage/emulated/0/meubot/node_modules/.staging/async-08ed8965 (1768ms)
+129 timing action:extract Completed in 1795ms
+130 silly doReverseSerial unbuild 48
+131 silly doSerial remove 48
+132 silly doSerial move 48
+133 silly doSerial finalize 48
+134 silly finalize /storage/emulated/0/meubot/node_modules/commander
+135 silly finalize /storage/emulated/0/meubot/node_modules/jsonparse
+136 silly finalize /storage/emulated/0/meubot/node_modules/lodash.get
+137 silly finalize /storage/emulated/0/meubot/node_modules/json2csv
+138 silly finalize /storage/emulated/0/meubot/node_modules/tiktok-scraper/node_modules/async
+139 silly finalize /storage/emulated/0/meubot/node_modules/tiktok-scraper
+140 timing action:finalize Completed in 215ms
+141 silly doParallel refresh-package-json 6
+142 silly refresh-package-json /storage/emulated/0/meubot/node_modules/commander
+143 silly refresh-package-json /storage/emulated/0/meubot/node_modules/jsonparse
+144 silly refresh-package-json /storage/emulated/0/meubot/node_modules/lodash.get
+145 silly refresh-package-json /storage/emulated/0/meubot/node_modules/json2csv
+146 silly refresh-package-json /storage/emulated/0/meubot/node_modules/tiktok-scraper/node_modules/async
+147 silly refresh-package-json /storage/emulated/0/meubot/node_modules/tiktok-scraper
+148 timing action:refresh-package-json Completed in 292ms
+149 silly doParallel preinstall 6
+150 silly preinstall commander@2.20.3
+151 info lifecycle commander@2.20.3~preinstall: commander@2.20.3
+152 silly preinstall jsonparse@1.3.1
+153 info lifecycle jsonparse@1.3.1~preinstall: jsonparse@1.3.1
+154 silly preinstall lodash.get@4.4.2
+155 info lifecycle lodash.get@4.4.2~preinstall: lodash.get@4.4.2
+156 silly preinstall json2csv@4.5.1
+157 info lifecycle json2csv@4.5.1~preinstall: json2csv@4.5.1
+158 silly preinstall async@3.2.0
+159 info lifecycle async@3.2.0~preinstall: async@3.2.0
+160 silly preinstall tiktok-scraper@1.4.17
+161 info lifecycle tiktok-scraper@1.4.17~preinstall: tiktok-scraper@1.4.17
+162 timing action:preinstall Completed in 25ms
+163 silly doSerial build 48
+164 silly build commander@2.20.3
+165 info linkStuff commander@2.20.3
+166 silly linkStuff commander@2.20.3 has /storage/emulated/0/meubot/node_modules as its parent node_modules
+167 silly build jsonparse@1.3.1
+168 info linkStuff jsonparse@1.3.1
+169 silly linkStuff jsonparse@1.3.1 has /storage/emulated/0/meubot/node_modules as its parent node_modules
+170 silly build lodash.get@4.4.2
+171 info linkStuff lodash.get@4.4.2
+172 silly linkStuff lodash.get@4.4.2 has /storage/emulated/0/meubot/node_modules as its parent node_modules
+173 silly build json2csv@4.5.1
+174 info linkStuff json2csv@4.5.1
+175 silly linkStuff json2csv@4.5.1 has /storage/emulated/0/meubot/node_modules as its parent node_modules
+176 verbose linkBins [
+176 verbose linkBins   { json2csv: 'bin/json2csv.js' },
+176 verbose linkBins   '/storage/emulated/0/meubot/node_modules/.bin',
+176 verbose linkBins   false
+176 verbose linkBins ]
+177 silly gently link link does not already exist {
+177 silly gently link   link: '/storage/emulated/0/meubot/node_modules/.bin/json2csv',
+177 silly gently link   target: '/storage/emulated/0/meubot/node_modules/json2csv/bin/json2csv.js'
+177 silly gently link }
+178 timing action:build Completed in 137ms
+179 verbose unlock done using /data/data/com.termux/files/home/.npm/_locks/staging-57715119ca31aab6.lock for /storage/emulated/0/meubot/node_modules/.staging
+180 timing stage:rollbackFailedOptional Completed in 801ms
+181 timing stage:runTopLevelLifecycles Completed in 25474ms
+182 silly saveTree XBOT@1.0.0
+182 silly saveTree ├─┬ @adiwajshing/baileys@3.4.1
+182 silly saveTree │ ├── @adiwajshing/keyed-db@0.2.4
+182 silly saveTree │ ├── curve25519-js@0.0.4
+182 silly saveTree │ ├── futoin-hkdf@1.3.3
+182 silly saveTree │ ├─┬ https-proxy-agent@5.0.0
+182 silly saveTree │ │ ├─┬ agent-base@6.0.2
+182 silly saveTree │ │ │ └─┬ debug@4.3.1
+182 silly saveTree │ │ │   └── ms@2.1.2
+182 silly saveTree │ │ └── debug@4.3.1
+182 silly saveTree │ ├─┬ jimp@0.16.1
+182 silly saveTree │ │ ├─┬ @babel/runtime@7.13.10
+182 silly saveTree │ │ │ └── regenerator-runtime@0.13.7
+182 silly saveTree │ │ ├─┬ @jimp/custom@0.16.1
+182 silly saveTree │ │ │ └─┬ @jimp/core@0.16.1
+182 silly saveTree │ │ │   ├── @jimp/utils@0.16.1
+182 silly saveTree │ │ │   ├── any-base@1.1.0
+182 silly saveTree │ │ │   ├─┬ buffer@5.7.1
+182 silly saveTree │ │ │   │ ├── base64-js@1.5.1
+182 silly saveTree │ │ │   │ └── ieee754@1.2.1
+182 silly saveTree │ │ │   ├── exif-parser@0.1.12
+182 silly saveTree │ │ │   ├── file-type@9.0.0
+182 silly saveTree │ │ │   ├─┬ load-bmfont@1.4.1
+182 silly saveTree │ │ │   │ ├── buffer-equal@0.0.1
+182 silly saveTree │ │ │   │ ├── mime@1.6.0
+182 silly saveTree │ │ │   │ ├── parse-bmfont-ascii@1.0.6
+182 silly saveTree │ │ │   │ ├── parse-bmfont-binary@1.0.6
+182 silly saveTree │ │ │   │ ├─┬ parse-bmfont-xml@1.1.4
+182 silly saveTree │ │ │   │ │ ├── xml-parse-from-string@1.0.1
+182 silly saveTree │ │ │   │ │ └─┬ xml2js@0.4.23
+182 silly saveTree │ │ │   │ │   ├── sax@1.2.4
+182 silly saveTree │ │ │   │ │   └── xmlbuilder@11.0.1
+182 silly saveTree │ │ │   │ ├── phin@2.9.3
+182 silly saveTree │ │ │   │ ├─┬ xhr@2.6.0
+182 silly saveTree │ │ │   │ │ ├─┬ global@4.4.0
+182 silly saveTree │ │ │   │ │ │ ├─┬ min-document@2.19.0
+182 silly saveTree │ │ │   │ │ │ │ └── dom-walk@0.1.2
+182 silly saveTree │ │ │   │ │ │ └── process@0.11.10
+182 silly saveTree │ │ │   │ │ ├── is-function@1.0.2
+182 silly saveTree │ │ │   │ │ ├── parse-headers@2.0.3
+182 silly saveTree │ │ │   │ │ └── xtend@4.0.2
+182 silly saveTree │ │ │   │ └── xtend@4.0.2
+182 silly saveTree │ │ │   ├─┬ mkdirp@0.5.5
+182 silly saveTree │ │ │   │ └── minimist@1.2.5
+182 silly saveTree │ │ │   ├── phin@2.9.3
+182 silly saveTree │ │ │   ├─┬ pixelmatch@4.0.2
+182 silly saveTree │ │ │   │ └── pngjs@3.4.0
+182 silly saveTree │ │ │   └── tinycolor2@1.4.2
+182 silly saveTree │ │ ├─┬ @jimp/plugins@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-blit@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-blur@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-circle@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-color@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-contain@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-cover@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-crop@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-displace@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-dither@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-fisheye@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-flip@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-gaussian@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-invert@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-mask@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-normalize@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-print@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-resize@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-rotate@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-scale@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-shadow@0.16.1
+182 silly saveTree │ │ │ ├── @jimp/plugin-threshold@0.16.1
+182 silly saveTree │ │ │ └── timm@1.7.1
+182 silly saveTree │ │ ├─┬ @jimp/types@0.16.1
+182 silly saveTree │ │ │ ├─┬ @jimp/bmp@0.16.1
+182 silly saveTree │ │ │ │ └── bmp-js@0.1.0
+182 silly saveTree │ │ │ ├─┬ @jimp/gif@0.16.1
+182 silly saveTree │ │ │ │ ├─┬ gifwrap@0.9.2
+182 silly saveTree │ │ │ │ │ ├── image-q@1.1.1
+182 silly saveTree │ │ │ │ │ └── omggif@1.0.10
+182 silly saveTree │ │ │ │ └── omggif@1.0.10
+182 silly saveTree │ │ │ ├─┬ @jimp/jpeg@0.16.1
+182 silly saveTree │ │ │ │ └── jpeg-js@0.4.2
+182 silly saveTree │ │ │ ├── @jimp/png@0.16.1
+182 silly saveTree │ │ │ └─┬ @jimp/tiff@0.16.1
+182 silly saveTree │ │ │   └─┬ utif@2.0.1
+182 silly saveTree │ │ │     └── pako@1.0.11
+182 silly saveTree │ │ └── regenerator-runtime@0.13.7
+182 silly saveTree │ ├─┬ music-metadata@7.8.1
+182 silly saveTree │ │ ├── content-type@1.0.4
+182 silly saveTree │ │ ├─┬ file-type@16.3.0
+182 silly saveTree │ │ │ ├─┬ readable-web-to-node-stream@3.0.1
+182 silly saveTree │ │ │ │ ├─┬ @types/readable-stream@2.3.9
+182 silly saveTree │ │ │ │ │ ├── @types/node@14.14.35
+182 silly saveTree │ │ │ │ │ └── safe-buffer@5.2.1
+182 silly saveTree │ │ │ │ └─┬ readable-stream@3.6.0
+182 silly saveTree │ │ │ │   ├── inherits@2.0.4
+182 silly saveTree │ │ │ │   ├── string_decoder@1.3.0
+182 silly saveTree │ │ │ │   └── util-deprecate@1.0.2
+182 silly saveTree │ │ │ ├─┬ strtok3@6.0.8
+182 silly saveTree │ │ │ │ ├── @tokenizer/token@0.1.1
+182 silly saveTree │ │ │ │ ├── @types/debug@4.1.5
+182 silly saveTree │ │ │ │ └── peek-readable@3.1.3
+182 silly saveTree │ │ │ ├── token-types@2.1.1
+182 silly saveTree │ │ │ └─┬ typedarray-to-buffer@3.1.5
+182 silly saveTree │ │ │   └── is-typedarray@1.0.0
+182 silly saveTree │ │ ├── media-typer@1.1.0
+182 silly saveTree │ │ ├── strtok3@6.0.8
+182 silly saveTree │ │ └── token-types@2.1.1
+182 silly saveTree │ ├── node-fetch@2.6.1
+182 silly saveTree │ ├─┬ pino-pretty@4.7.1
+182 silly saveTree │ │ ├── @hapi/bourne@2.0.0
+182 silly saveTree │ │ ├─┬ args@5.0.1
+182 silly saveTree │ │ │ ├── camelcase@5.0.0
+182 silly saveTree │ │ │ ├─┬ chalk@2.4.2
+182 silly saveTree │ │ │ │ ├─┬ ansi-styles@3.2.1
+182 silly saveTree │ │ │ │ │ └─┬ color-convert@1.9.3
+182 silly saveTree │ │ │ │ │   └── color-name@1.1.3
+182 silly saveTree │ │ │ │ ├── escape-string-regexp@1.0.5
+182 silly saveTree │ │ │ │ └─┬ supports-color@5.5.0
+182 silly saveTree │ │ │ │   └── has-flag@3.0.0
+182 silly saveTree │ │ │ ├── leven@2.1.0
+182 silly saveTree │ │ │ └── mri@1.1.4
+182 silly saveTree │ │ ├─┬ chalk@4.1.0
+182 silly saveTree │ │ │ ├─┬ ansi-styles@4.3.0
+182 silly saveTree │ │ │ │ └─┬ color-convert@2.0.1
+182 silly saveTree │ │ │ │   └── color-name@1.1.4
+182 silly saveTree │ │ │ └─┬ supports-color@7.2.0
+182 silly saveTree │ │ │   └── has-flag@4.0.0
+182 silly saveTree │ │ ├── dateformat@4.5.1
+182 silly saveTree │ │ ├── fast-safe-stringify@2.0.7
+182 silly saveTree │ │ ├── jmespath@0.15.0
+182 silly saveTree │ │ ├── joycon@2.2.5
+182 silly saveTree │ │ ├─┬ pump@3.0.0
+182 silly saveTree │ │ │ ├─┬ end-of-stream@1.4.4
+182 silly saveTree │ │ │ │ └─┬ once@1.4.0
+182 silly saveTree │ │ │ │   └── wrappy@1.0.2
+182 silly saveTree │ │ │ └── once@1.4.0
+182 silly saveTree │ │ ├── split2@3.2.2
+182 silly saveTree │ │ └── strip-json-comments@3.1.1
+182 silly saveTree │ ├─┬ pino@6.11.2
+182 silly saveTree │ │ ├── fast-redact@3.0.0
+182 silly saveTree │ │ ├── flatstr@1.0.12
+182 silly saveTree │ │ ├── pino-std-serializers@3.2.0
+182 silly saveTree │ │ ├── quick-format-unescaped@4.0.1
+182 silly saveTree │ │ └─┬ sonic-boom@1.4.0
+182 silly saveTree │ │   └── atomic-sleep@1.0.0
+182 silly saveTree │ ├─┬ protobufjs@6.10.2
+182 silly saveTree │ │ ├── @protobufjs/aspromise@1.1.2
+182 silly saveTree │ │ ├── @protobufjs/base64@1.1.2
+182 silly saveTree │ │ ├── @protobufjs/codegen@2.0.4
+182 silly saveTree │ │ ├── @protobufjs/eventemitter@1.1.0
+182 silly saveTree │ │ ├─┬ @protobufjs/fetch@1.1.0
+182 silly saveTree │ │ │ └── @protobufjs/inquire@1.1.0
+182 silly saveTree │ │ ├── @protobufjs/float@1.0.2
+182 silly saveTree │ │ ├── @protobufjs/inquire@1.1.0
+182 silly saveTree │ │ ├── @protobufjs/path@1.1.2
+182 silly saveTree │ │ ├── @protobufjs/pool@1.1.0
+182 silly saveTree │ │ ├── @protobufjs/utf8@1.1.0
+182 silly saveTree │ │ ├── @types/long@4.0.1
+182 silly saveTree │ │ ├── @types/node@13.13.47
+182 silly saveTree │ │ └── long@4.0.0
+182 silly saveTree │ ├── qrcode-terminal@0.12.0
+182 silly saveTree │ └── ws@7.4.4
+182 silly saveTree ├─┬ async@2.6.3
+182 silly saveTree │ └── lodash@4.17.21
+182 silly saveTree ├─┬ axios@0.21.1
+182 silly saveTree │ └── follow-redirects@1.13.3
+182 silly saveTree ├─┬ cfonts@2.9.1
+182 silly saveTree │ └─┬ window-size@1.1.1
+182 silly saveTree │   ├─┬ define-property@1.0.0
+182 silly saveTree │   │ └─┬ is-descriptor@1.0.2
+182 silly saveTree │   │   ├─┬ is-accessor-descriptor@1.0.0
+182 silly saveTree │   │   │ └── kind-of@6.0.3
+182 silly saveTree │   │   ├── is-data-descriptor@1.0.0
+182 silly saveTree │   │   └── kind-of@6.0.3
+182 silly saveTree │   └─┬ is-number@3.0.0
+182 silly saveTree │     └─┬ kind-of@3.2.2
+182 silly saveTree │       └── is-buffer@1.1.6
+182 silly saveTree ├── dotenv@8.2.0
+182 silly saveTree ├── escape-string-regexp@1.0.5
+182 silly saveTree ├── fake-useragent@1.0.1
+182 silly saveTree ├─┬ fluent-ffmpeg@2.1.2
+182 silly saveTree │ └─┬ which@1.3.1
+182 silly saveTree │   └── isexe@2.0.0
+182 silly saveTree ├─┬ got@11.8.2
+182 silly saveTree │ ├── @sindresorhus/is@4.0.0
+182 silly saveTree │ ├─┬ @szmarczak/http-timer@4.0.5
+182 silly saveTree │ │ └── defer-to-connect@2.0.1
+182 silly saveTree │ ├─┬ @types/cacheable-request@6.0.1
+182 silly saveTree │ │ ├── @types/http-cache-semantics@4.0.0
+182 silly saveTree │ │ ├── @types/keyv@3.1.1
+182 silly saveTree │ │ └── @types/responselike@1.0.0
+182 silly saveTree │ ├── @types/responselike@1.0.0
+182 silly saveTree │ ├── cacheable-lookup@5.0.4
+182 silly saveTree │ ├─┬ cacheable-request@7.0.1
+182 silly saveTree │ │ ├─┬ clone-response@1.0.2
+182 silly saveTree │ │ │ └── mimic-response@1.0.1
+182 silly saveTree │ │ ├── get-stream@5.2.0
+182 silly saveTree │ │ ├── http-cache-semantics@4.1.0
+182 silly saveTree │ │ ├─┬ keyv@4.0.3
+182 silly saveTree │ │ │ └── json-buffer@3.0.1
+182 silly saveTree │ │ ├── lowercase-keys@2.0.0
+182 silly saveTree │ │ ├── normalize-url@4.5.0
+182 silly saveTree │ │ └── responselike@2.0.0
+182 silly saveTree │ ├─┬ decompress-response@6.0.0
+182 silly saveTree │ │ └── mimic-response@3.1.0
+182 silly saveTree │ ├─┬ http2-wrapper@1.0.3
+182 silly saveTree │ │ ├── quick-lru@5.1.1
+182 silly saveTree │ │ └── resolve-alpn@1.0.0
+182 silly saveTree │ ├── lowercase-keys@2.0.0
+182 silly saveTree │ ├── p-cancelable@2.1.0
+182 silly saveTree │ └── responselike@2.0.0
+182 silly saveTree ├── image-to-base64@2.1.1
+182 silly saveTree ├─┬ moment-timezone@0.5.33
+182 silly saveTree │ └── moment@2.29.1
+182 silly saveTree ├─┬ multistream@2.1.1
+182 silly saveTree │ └─┬ readable-stream@2.3.7
+182 silly saveTree │   ├── core-util-is@1.0.2
+182 silly saveTree │   ├── isarray@1.0.0
+182 silly saveTree │   ├── process-nextick-args@2.0.1
+182 silly saveTree │   ├── safe-buffer@5.1.2
+182 silly saveTree │   └── string_decoder@1.1.1
+182 silly saveTree ├─┬ needle@2.6.0
+182 silly saveTree │ ├── debug@3.2.7
+182 silly saveTree │ └─┬ iconv-lite@0.4.24
+182 silly saveTree │   └── safer-buffer@2.1.2
+182 silly saveTree ├── node-fetch@2.6.1
+182 silly saveTree ├─┬ node-gtts@2.0.2
+182 silly saveTree │ └─┬ request@2.88.2
+182 silly saveTree │   ├── aws-sign2@0.7.0
+182 silly saveTree │   ├── aws4@1.11.0
+182 silly saveTree │   ├── caseless@0.12.0
+182 silly saveTree │   ├─┬ combined-stream@1.0.8
+182 silly saveTree │   │ └── delayed-stream@1.0.0
+182 silly saveTree │   ├── extend@3.0.2
+182 silly saveTree │   ├── forever-agent@0.6.1
+182 silly saveTree │   ├─┬ form-data@2.3.3
+182 silly saveTree │   │ ├── asynckit@0.4.0
+182 silly saveTree │   │ └─┬ mime-types@2.1.29
+182 silly saveTree │   │   └── mime-db@1.46.0
+182 silly saveTree │   ├─┬ har-validator@5.1.5
+182 silly saveTree │   │ ├─┬ ajv@6.12.6
+182 silly saveTree │   │ │ ├── fast-deep-equal@3.1.3
+182 silly saveTree │   │ │ ├── fast-json-stable-stringify@2.1.0
+182 silly saveTree │   │ │ ├── json-schema-traverse@0.4.1
+182 silly saveTree │   │ │ └─┬ uri-js@4.4.1
+182 silly saveTree │   │ │   └── punycode@2.1.1
+182 silly saveTree │   │ └── har-schema@2.0.0
+182 silly saveTree │   ├─┬ http-signature@1.2.0
+182 silly saveTree │   │ ├── assert-plus@1.0.0
+182 silly saveTree │   │ ├─┬ jsprim@1.4.1
+182 silly saveTree │   │ │ ├── extsprintf@1.3.0
+182 silly saveTree │   │ │ ├── json-schema@0.2.3
+182 silly saveTree │   │ │ └── verror@1.10.0
+182 silly saveTree │   │ └─┬ sshpk@1.16.1
+182 silly saveTree │   │   ├── asn1@0.2.4
+182 silly saveTree │   │   ├─┬ bcrypt-pbkdf@1.0.2
+182 silly saveTree │   │   │ └── tweetnacl@0.14.5
+182 silly saveTree │   │   ├── dashdash@1.14.1
+182 silly saveTree │   │   ├─┬ ecc-jsbn@0.1.2
+182 silly saveTree │   │   │ └── jsbn@0.1.1
+182 silly saveTree │   │   ├── getpass@0.1.7
+182 silly saveTree │   │   ├── jsbn@0.1.1
+182 silly saveTree │   │   └── tweetnacl@0.14.5
+182 silly saveTree │   ├── isstream@0.1.2
+182 silly saveTree │   ├── json-stringify-safe@5.0.1
+182 silly saveTree │   ├── mime-types@2.1.29
+182 silly saveTree │   ├── oauth-sign@0.9.0
+182 silly saveTree │   ├── performance-now@2.1.0
+182 silly saveTree │   ├── qs@6.5.2
+182 silly saveTree │   ├─┬ tough-cookie@2.5.0
+182 silly saveTree │   │ └── psl@1.8.0
+182 silly saveTree │   ├── tunnel-agent@0.6.0
+182 silly saveTree │   └── uuid@3.4.0
+182 silly saveTree ├── node-tesseract-ocr@2.0.0
+182 silly saveTree ├── performance-now@2.1.0
+182 silly saveTree ├── qrcode-terminal@0.12.0
+182 silly saveTree ├─┬ remove.bg@1.3.0
+182 silly saveTree │ └─┬ unirest@0.6.0
+182 silly saveTree │   ├─┬ form-data@0.2.0
+182 silly saveTree │   │ ├── async@0.9.2
+182 silly saveTree │   │ ├─┬ combined-stream@0.0.7
+182 silly saveTree │   │ │ └── delayed-stream@0.0.5
+182 silly saveTree │   │ └─┬ mime-types@2.0.14
+182 silly saveTree │   │   └── mime-db@1.12.0
+182 silly saveTree │   └── mime@2.5.2
+182 silly saveTree ├── request@2.88.2
+182 silly saveTree ├─┬ spinnies@0.5.1
+182 silly saveTree │ ├── chalk@2.4.2
+182 silly saveTree │ ├─┬ cli-cursor@3.1.0
+182 silly saveTree │ │ └─┬ restore-cursor@3.1.0
+182 silly saveTree │ │   ├─┬ onetime@5.1.2
+182 silly saveTree │ │   │ └── mimic-fn@2.1.0
+182 silly saveTree │ │   └── signal-exit@3.0.3
+182 silly saveTree │ └─┬ strip-ansi@5.2.0
+182 silly saveTree │   └── ansi-regex@4.1.0
+182 silly saveTree └─┬ tiktok-scraper@1.4.17
+182 silly saveTree   ├─┬ archiver@3.1.1
+182 silly saveTree   │ ├─┬ archiver-utils@2.1.0
+182 silly saveTree   │ │ ├─┬ glob@7.1.6
+182 silly saveTree   │ │ │ ├── fs.realpath@1.0.0
+182 silly saveTree   │ │ │ ├── inflight@1.0.6
+182 silly saveTree   │ │ │ ├─┬ minimatch@3.0.4
+182 silly saveTree   │ │ │ │ └─┬ brace-expansion@1.1.11
+182 silly saveTree   │ │ │ │   ├── balanced-match@1.0.0
+182 silly saveTree   │ │ │ │   └── concat-map@0.0.1
+182 silly saveTree   │ │ │ └── path-is-absolute@1.0.1
+182 silly saveTree   │ │ ├── graceful-fs@4.2.6
+182 silly saveTree   │ │ ├─┬ lazystream@1.0.0
+182 silly saveTree   │ │ │ └─┬ readable-stream@2.3.7
+182 silly saveTree   │ │ │   ├── safe-buffer@5.1.2
+182 silly saveTree   │ │ │   └── string_decoder@1.1.1
+182 silly saveTree   │ │ ├── lodash.defaults@4.2.0
+182 silly saveTree   │ │ ├── lodash.difference@4.5.0
+182 silly saveTree   │ │ ├── lodash.flatten@4.4.0
+182 silly saveTree   │ │ ├── lodash.isplainobject@4.0.6
+182 silly saveTree   │ │ ├── lodash.union@4.6.0
+182 silly saveTree   │ │ ├── normalize-path@3.0.0
+182 silly saveTree   │ │ └─┬ readable-stream@2.3.7
+182 silly saveTree   │ │   ├── safe-buffer@5.1.2
+182 silly saveTree   │ │   └── string_decoder@1.1.1
+182 silly saveTree   │ ├── buffer-crc32@0.2.13
+182 silly saveTree   │ ├── glob@7.1.6
+182 silly saveTree   │ ├─┬ tar-stream@2.2.0
+182 silly saveTree   │ │ ├── bl@4.1.0
+182 silly saveTree   │ │ └── fs-constants@1.0.0
+182 silly saveTree   │ └─┬ zip-stream@2.1.3
+182 silly saveTree   │   └─┬ compress-commons@2.1.1
+182 silly saveTree   │     ├─┬ crc32-stream@3.0.1
+182 silly saveTree   │     │ └── crc@3.8.0
+182 silly saveTree   │     └─┬ readable-stream@2.3.7
+182 silly saveTree   │       ├── safe-buffer@5.1.2
+182 silly saveTree   │       └── string_decoder@1.1.1
+182 silly saveTree   ├── async@3.2.0
+182 silly saveTree   ├── bluebird@3.7.2
+182 silly saveTree   ├─┬ json2csv@4.5.1
+182 silly saveTree   │ ├── commander@2.20.3
+182 silly saveTree   │ ├── jsonparse@1.3.1
+182 silly saveTree   │ └── lodash.get@4.4.2
+182 silly saveTree   ├─┬ ora@4.1.1
+182 silly saveTree   │ ├─┬ chalk@3.0.0
+182 silly saveTree   │ │ ├─┬ ansi-styles@4.3.0
+182 silly saveTree   │ │ │ └─┬ color-convert@2.0.1
+182 silly saveTree   │ │ │   └── color-name@1.1.4
+182 silly saveTree   │ │ └─┬ supports-color@7.2.0
+182 silly saveTree   │ │   └── has-flag@4.0.0
+182 silly saveTree   │ ├── cli-spinners@2.5.0
+182 silly saveTree   │ ├── is-interactive@1.0.0
+182 silly saveTree   │ ├─┬ log-symbols@3.0.0
+182 silly saveTree   │ │ └── chalk@2.4.2
+182 silly saveTree   │ ├── mute-stream@0.0.8
+182 silly saveTree   │ ├─┬ strip-ansi@6.0.0
+182 silly saveTree   │ │ └── ansi-regex@5.0.0
+182 silly saveTree   │ └─┬ wcwidth@1.0.1
+182 silly saveTree   │   └─┬ defaults@1.0.3
+182 silly saveTree   │     └── clone@1.0.4
+182 silly saveTree   ├── progress@2.0.3
+182 silly saveTree   ├─┬ request-promise@4.2.6
+182 silly saveTree   │ ├── request-promise-core@1.1.4
+182 silly saveTree   │ └── stealthy-require@1.1.1
+182 silly saveTree   ├─┬ socks-proxy-agent@5.0.0
+182 silly saveTree   │ └─┬ socks@2.5.1
+182 silly saveTree   │   ├── ip@1.1.5
+182 silly saveTree   │   └── smart-buffer@4.1.0
+182 silly saveTree   └─┬ yargs@14.2.3
+182 silly saveTree     ├─┬ cliui@5.0.0
+182 silly saveTree     │ ├─┬ string-width@3.1.0
+182 silly saveTree     │ │ ├── emoji-regex@7.0.3
+182 silly saveTree     │ │ └── is-fullwidth-code-point@2.0.0
+182 silly saveTree     │ └── wrap-ansi@5.1.0
+182 silly saveTree     ├── decamelize@1.2.0
+182 silly saveTree     ├─┬ find-up@3.0.0
+182 silly saveTree     │ └─┬ locate-path@3.0.0
+182 silly saveTree     │   ├─┬ p-locate@3.0.0
+182 silly saveTree     │   │ └─┬ p-limit@2.3.0
+182 silly saveTree     │   │   └── p-try@2.2.0
+182 silly saveTree     │   └── path-exists@3.0.0
+182 silly saveTree     ├── get-caller-file@2.0.5
+182 silly saveTree     ├── require-directory@2.1.1
+182 silly saveTree     ├── require-main-filename@2.0.0
+182 silly saveTree     ├── set-blocking@2.0.0
+182 silly saveTree     ├── string-width@3.1.0
+182 silly saveTree     ├── which-module@2.0.0
+182 silly saveTree     ├── y18n@4.0.1
+182 silly saveTree     └── yargs-parser@15.0.1
+183 verbose stack Error: EPERM: operation not permitted, symlink '../json2csv/bin/json2csv.js' -> '/storage/emulated/0/meubot/node_modules/.bin/json2csv'
+184 verbose cwd /storage/emulated/0/meubot
+185 verbose Linux 3.18.14-15008757-QB36298109
+186 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "install"
+187 verbose node v14.15.4
+188 verbose npm  v6.14.10
+189 error code EPERM
+190 error syscall symlink
+191 error path ../json2csv/bin/json2csv.js
+192 error dest /storage/emulated/0/meubot/node_modules/.bin/json2csv
+193 error errno -1
+194 error Error: EPERM: operation not permitted, symlink '../json2csv/bin/json2csv.js' -> '/storage/emulated/0/meubot/node_modules/.bin/json2csv'
+194 error  [OperationalError: EPERM: operation not permitted, symlink '../json2csv/bin/json2csv.js' -> '/storage/emulated/0/meubot/node_modules/.bin/json2csv'] {
+194 error   cause: [Error: EPERM: operation not permitted, symlink '../json2csv/bin/json2csv.js' -> '/storage/emulated/0/meubot/node_modules/.bin/json2csv'] {
+194 error     errno: -1,
+194 error     code: 'EPERM',
+194 error     syscall: 'symlink',
+194 error     path: '../json2csv/bin/json2csv.js',
+194 error     dest: '/storage/emulated/0/meubot/node_modules/.bin/json2csv'
+194 error   },
+194 error   errno: -1,
+194 error   code: 'EPERM',
+194 error   syscall: 'symlink',
+194 error   path: '../json2csv/bin/json2csv.js',
+194 error   dest: '/storage/emulated/0/meubot/node_modules/.bin/json2csv',
+194 error   parent: 'meubot'
+194 error }
+195 error The operation was rejected by your operating system.
+195 error It is likely you do not have the permissions to access this file as the current user
+195 error
+195 error If you believe this might be a permissions issue, please double-check the
+195 error permissions of the file and its containing directories, or try running
+195 error the command again as root/Administrator.
+196 verbose exit [ -1, true ]

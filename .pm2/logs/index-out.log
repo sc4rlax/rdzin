@@ -1,0 +1,632 @@
+INFO [2021-03-14 03:58:00.972 +0000] (8754): loading authentication credentials from ./session.json
+    class: "Baileys"
+INFO [2021-03-14 03:58:01.488 +0000] (8754): connected to WhatsApp Web server, authenticating via takeover
+    class: "Baileys"
+credentials updated!
+INFO [2021-03-14 03:58:04.464 +0000] (8754): validated connection successfully
+    class: "Baileys"
+INFO [2021-03-14 03:58:04.680 +0000] (8754): opened connection to WhatsApp Web
+    class: "Baileys"
+INFO [2021-03-14 03:58:05.680 +0000] (8754): received 11 chats
+    class: "Baileys"
+INFO [2021-03-14 03:58:07.279 +0000] (8754): received 1126 contacts
+    class: "Baileys"
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 10:58:13 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 10:58:14 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 10:58:19 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+INFO [2021-03-14 03:58:31.679 +0000] (8754): closed connection, reason replaced
+    class: "Baileys"
+INFO [2021-03-14 03:58:49.747 +0000] (9057): loading authentication credentials from ./session.json
+    class: "Baileys"
+INFO [2021-03-14 03:58:50.831 +0000] (9057): connected to WhatsApp Web server, authenticating via takeover
+    class: "Baileys"
+INFO [2021-03-14 03:58:53.596 +0000] (9057): resolving login challenge
+    class: "Baileys"
+credentials updated!
+INFO [2021-03-14 03:58:54.105 +0000] (9057): validated connection successfully
+    class: "Baileys"
+INFO [2021-03-14 03:58:54.405 +0000] (9057): opened connection to WhatsApp Web
+    class: "Baileys"
+INFO [2021-03-14 03:58:55.090 +0000] (9057): received 11 chats
+    class: "Baileys"
+INFO [2021-03-14 03:58:58.278 +0000] (9057): received 1126 contacts
+    class: "Baileys"
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 10:59:00 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 10:59:20 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 10:59:25 menu from 5511946363551 in Teste bot args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:00:13 anime from 5511946363551 in Teste bot args : 0
+Error : FetchError: invalid json response body at https://mnazria.herokuapp.com/api/anime?query= reason: Unexpected token < in JSON at position 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:00:35 pokemon from 5511946363551 in Teste bot args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:00:49 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:00:57 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:00:58 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:01:18 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:01:33 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:01:33 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:02:04 pornlogo from 5511946363551 in Teste bot args : 1
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:02:04 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:02:30 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:02:40 porn from 5511946363551 in Teste bot args : 1
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:02:51 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:03:15 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:03:17 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:03:17 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:03:54 text3d from 5511946363551 in Teste bot args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:04:04 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:04:44 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:04:52 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:05:08 bv from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:05:30 vb from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:06:51 inf from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:06:52 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:06:54 info from 5511946363551 in Teste bot args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:07:08 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:07:21 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:07:21 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:09:38 liologo from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:09:43 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:09:53 lionlogo from 5511946363551 in Teste bot args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:10:24 lionlogo from 5511946363551 in Teste bot args : 1
+Error : FetchError: invalid json response body at https://tobz-api.herokuapp.com/api/textpro?theme=lionlogo&text1=kbcfj&text2=undefined reason: Unexpected token < in JSON at position 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:11:35 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:12:57 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:15:29 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:15:48 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:18:04 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:19:35 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:21:15 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:22:29 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:25:39 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:29:05 menu from 5511946363551 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:30:00 Message from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 14/03 11:31:06 ptts from 5511946363551 args : 2
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:35:14 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:35:14 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:35:14 Message from 5511946363551 in Teste bot args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 14/03 11:35:31 Message from 994407308048 in Teste bot args : 0
+[ERROR] Unregistered Command from 994407308048
+INFO [2021-03-17 03:42:44.780 +0000] (7158): loading authentication credentials from ./session.json
+    class: "Baileys"
+INFO [2021-03-17 03:42:45.673 +0000] (7158): connected to WhatsApp Web server, authenticating via takeover
+    class: "Baileys"
+credentials updated!
+INFO [2021-03-17 03:42:46.357 +0000] (7158): validated connection successfully
+    class: "Baileys"
+INFO [2021-03-17 03:42:46.575 +0000] (7158): opened connection to WhatsApp Web
+    class: "Baileys"
+INFO [2021-03-17 03:42:47.302 +0000] (7158): received 13 chats
+    class: "Baileys"
+INFO [2021-03-17 03:42:50.340 +0000] (7158): received 1355 contacts
+    class: "Baileys"
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 10:43:02 Message from 5511946363551 in Δ.Ć.β - €.ĆSŦ ☠️🇧🇷 args : 0
+[ERROR] Unregistered Command from 5511946363551
+INFO [2021-03-17 04:01:45.026 +0000] (7158): closed connection, reason close, reconnecting in a few seconds...
+    class: "Baileys"
+INFO [2021-03-17 04:01:49.587 +0000] (7158): connected to WhatsApp Web server, authenticating via takeover
+    class: "Baileys"
+credentials updated!
+INFO [2021-03-17 04:01:52.388 +0000] (7158): validated connection successfully
+    class: "Baileys"
+INFO [2021-03-17 04:01:52.599 +0000] (7158): opened connection to WhatsApp Web
+    class: "Baileys"
+INFO [2021-03-17 04:01:54.314 +0000] (7158): received 13 chats
+    class: "Baileys"
+INFO [2021-03-17 04:01:56.050 +0000] (7158): received 1355 contacts
+    class: "Baileys"
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:03:34 menu from 5511946363551 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:04:07 anime from 5511946363551 args : 0
+Error : FetchError: invalid json response body at https://mnazria.herokuapp.com/api/anime?query= reason: Unexpected token < in JSON at position 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:04:17 pockemon from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:04:29 nsfw from 5511946363551 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:04:50 nsfw from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:05:04 nsfw from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:12 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:26 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:26 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:32 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:42 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:42 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:05:56 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:06:01 simih from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:08 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:06:15 simih from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:18 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+Oi
+Dk Pacak
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:24 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+ah sim
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:24 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+é simi
+gaboleh
+pagi kak
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:28 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+eae simi
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:29 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+Ss
+Ahoy..
+iya
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:41 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+ih ta bugadao kakakka
+kaaooaoaoa
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:06:52 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+Tá em outro idioma
+gak tau..
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:06:56 simih from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:07:06 simih from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:07:29 rdsocial from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:07:57 loli from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:08:16 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:08:55 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:08:58 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:09:05 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:09:17 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:09:21 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:09:27 menu from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:09:56 mandamentos from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:10:08 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:04 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:07 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:14 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:17 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:23 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:26 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:35 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:42 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:11:46 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:12:14 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:12:35 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:12:53 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:13:15 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:13:21 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:13:32 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:13:49 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:13:50 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:13:56 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:14:17 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:14:28 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:14:39 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:14:52 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:14:57 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:15:18 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:15:38 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:15:49 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:10 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:14 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:21 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:21 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:24 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:24 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:31 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:35 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:37 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:47 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:16:48 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:17:28 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:17:38 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:17:39 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:17:44 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:17:49 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:17:53 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:18:56 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:19:37 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:21:21 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:21:53 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:22:02 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:22:08 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:22:17 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:23:04 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:23:24 anjing from 5511946363551 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:24:11 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:25:36 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:25:42 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:26:51 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:27:00 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:27:10 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:27:31 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:27:37 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:27:49 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:27:54 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:28:26 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:28:44 stick from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:29:04 sticker from 5511946363551 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1559.webp
+Finish
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:29:13 sticke from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:29:30 donasi from 5511946363551 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:29:35 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:29:37 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:29:55 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:29:59 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:30:03 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 17/03 11:32:53 menu from 5511946363551 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:34:41 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:36:06 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:36:18 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:36:54 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:37:14 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:37:25 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:37:27 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:38:09 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:38:24 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:38:39 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:38:43 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:38:52 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:39:23 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:40:06 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:44:27 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:52:26 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:52:50 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:52:59 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:53:10 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:55:19 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:55:22 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:55:27 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:55:53 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:56:25 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:56:37 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:56:49 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:56:57 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:57:00 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:57:19 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:57:29 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:57:36 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:57:53 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:58:11 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 11:58:13 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:00:36 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:00:46 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:01:55 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:01:55 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:02:29 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:02:35 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:03:10 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:03:12 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:03:18 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:03:26 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:03:28 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:03:29 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:06:38 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:06:53 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:06:56 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:14 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:22 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:32 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:34 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:37 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:41 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:50 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:53 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:54 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:07:58 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:08:04 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:08:57 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:09:48 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:10:08 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:10:11 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:10:18 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:10:27 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:10:52 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:11:02 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:11:14 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:12:13 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:12:13 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:13:03 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:13:16 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:13:19 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:13:45 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:13:45 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:15:06 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:15:11 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:15:23 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:15:39 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:18:32 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:18:32 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:18:54 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:20:11 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:25:39 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:26:16 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:27:59 Message from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:27:59 Message from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:27:59 Message from 5511946363551 args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:29:30 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:29:41 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:29:46 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:31:44 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:35:05 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:35:09 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:35:51 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:36:01 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:38:30 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:38:32 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:38:46 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:38:57 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:38:59 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:07 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:10 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:10 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:18 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:33 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:51 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:51 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:39:53 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:41:30 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:41:41 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:42:29 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:42:35 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:42:40 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:42:57 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:43:51 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:07 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:10 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:10 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:13 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:29 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:32 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:37 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:38 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:45 Message from 558888243386 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 558888243386
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:44:56 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:45:08 Message from 994407308048 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 994407308048
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:45:42 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 17/03 12:47:26 Message from 5511946363551 in Ƀ.Ø.₮_Δ.Ć.β args : 0
+[ERROR] Unregistered Command from 5511946363551
